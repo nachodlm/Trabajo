@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assassin's creed</title>
+    <link rel="stylesheet" href="./css/proyecto2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./JS/funciones.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--ESTO ES PARA EL ICONO EN LA ESTAÑA-->
+    <link rel="shortcut icon" href="./imagenes/Simboloassasinscreed.jpeg" type="image/x-icon">
+</head>
+<body>
+    <div id="wrapper">
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="#" class="active">Inicio</a>
+                <a href="#intro">Introduccion</a>
+                <a href="#Asesinos">Asesinos</a>
+                <a href="#Resumen">Resumen</a>
+                <a href="#Contacto">Contacto</a>
+                <!--EL ULTIMO BOTON ES ESPECIAL SE DESACTIVA SU HREF PARA QUE NO MANDE A NINGUN SITIO.
+                A CAMBIO ES MANIPULADO POR UN JAVASCRIPT QUE HACE SE QUE OCULTE CUANDO LOS DEMAS
+                BOTONES SE OCULTEN.
+                APARECE SOLO CUANDO LA PANTALLA SEA ESTRECHA-->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        <section id="heroe">
+            Assassin's creed
+        </section>
+        <section id="intro">
+            <div class="titulo-seccion">
+                ¿Que son los Asesinos? <br>
+                <div id="intro2">
+                Entendemos por asesino alguien despiadado que mata para hacer sufrir, pero de los que vamos a hablar hoy son gente de nobles ideales que siguen un credo, no uno con un unico sentido sino un credo que se puede adaptar a la moralidad de cada uno, puede ser de un firme ideal a un ideal en el que cabe la bondad y el perdon, ha surgido gente maravillosa bajo este credo y vengo a hablar de ellos, como hay demasiados solo voy a hablar de unos pocos.
+                </div>
+            </div>
+        </section>
+        <section id="Asesinos">
+            <div class="titulo-seccion">
+                Estos son los Asesinos más importantes
+            </div>
+            <div class="grid">
+                    <ul id="parte1">
+                        <li>Altaïr Ibn-La'Ahad</li>
+                        <li>Ezio Auditore</li>
+                        <li>Edward Kenway</li>
+                        <li>Connor Kenway</li>
+                        <li>Bayek de siwa</li>
+                        <li>Eivor</li>
+                    </ul>
+                </div>
+                <div id="grid4">
+                    <div class="col4">
+                        <div class="card">
+                            <img src="./imagenes/Altair.jpeg" alt="Altair">
+                            <div class="pie">
+                                <h4><b>Altaïr</b></h4>
+                                <p><a class="boton" href="https://assassinscreed.fandom.com/es/wiki/Alta%C3%AFr_Ibn-La'Ahad">Más información</a></p>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card">
+                            <img src="./imagenes/Ezio.jpeg" alt="Ezio">
+                            <div class="pie">
+                                <h4><b>Ezio</b></h4>
+                                <p><a class="boton" href="https://assassinscreed.fandom.com/es/wiki/Ezio_Auditore_da_Firenze">Más información</a></p>
+                              </div>
+                        </div>
+                    </div>
+                   <div class="col4">
+                        <div class="card">
+                            <img src="./imagenes/Edward.jpeg" alt="Edward">
+                            <div class="pie">
+                                <h4><b>Edward</b></h4>
+                                <p><a class="boton" href="https://assassinscreed.fandom.com/es/wiki/Edward_Kenway">Más información</a></p>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card">
+                            <img src="./imagenes/Connor.jpeg" alt="Connor">
+                            <div class="pie">
+                                <h4><b>Connor</b></h4>
+                                <p><a class="boton" href="https://assassinscreed.fandom.com/es/wiki/Ratonhnhak%C3%A9:ton">Más información</a></p>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card">
+                            <img src="./imagenes/Eivor.jpeg" alt="Eivor">
+                            <div class="pie">
+                                <h4><b>Eivor</b></h4>
+                                <p><a class="boton" href="https://assassinscreed.fandom.com/es/wiki/Eivor_Varinsdottir">Más información</a></p>
+                            </div>
+                    </div>
+                </div>
+
+        </section>
+        <section id="Resumen">
+            <p>Resumen</p>
+            <div id="texto-Resumen">
+                <p>Los asesinos empezaron gracias a bayek de siwa el que se cree que fue el fundador de los asesinos entonces llamados los ocultos</p><br>
+                <div class="iframe">
+                    <iframe class="responsive-iframe" src="https://www.youtube.com/watch?v=XMb3esKQLWs" title="La historia de Assassin's creed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; acrypted-media; gyroscope; picture-in-pictura" allowfullscreen></iframe>
+               </div>
+            </div>
+           </section>
+        </section>
+        <section id="Contacto">
+            <p>CONTACTO</p>
+        </section>
+        <footer>
+            <div class="grid3">
+                <div class="col3">
+                    <a href="#" class="enlace">Inicio</a><br>
+                    <a href="#intro" class="enlace">Introduccion</a><br>
+                    <a href="#Asesinos" class="enlace">Asesinos</a><br>
+                    <a href="#Resumen" class="enlace">Resumen</a><br>
+                    <a href="#Contacto" class="enlace">Contactos</a><br>
+
+                </div>
+                <div class="col3" id="ancha">
+                    <p>Síguenos en redes:</p>
+                    <a href="https://www.youtube.com/@Ubisoft" class="fa fa-youtube"></a>
+                    <a href="https://www.instagram.com/assassinscreed/?hl=es" class="fa fa-instagram"></a>
+                </div>
+            </div>
+            
+        </footer>
+
+    </div>
+</body>
+</html>

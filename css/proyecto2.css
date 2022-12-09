@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box; /*en todo*/
+}
+@font-face {
+    font-family: "titulos" ;
+    src: url(../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "texto" ;
+    src: url(../fonts/La_Belle_Aurore/LaBelleAurore-Regular.ttf);
+}
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    font-size: 1rem;
+    color: #fff;
+}
+
+section {padding:4% 0;
+}
+
+body {
+    font-family:"texto" ;
+    font-size: 40px;
+    background-image:url(../imagenes/fondo.jpg);
+    margin: 0; padding: 0; /* Resetear el por defecto de la ventana */
+}
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(31, 17, 85);
+    font-size: 1rem;
+    color: #fff;
+}
+
+#heroe {background-image: url('../imagenes/assassins-creed-2115643.jpg');
+    height: 100vh;  /* para obligar que sea todo el alto */
+    background-repeat:  no-repeat; /* No se repita*/
+    background-size: cover; /* Cubre todo el fondo */
+    background-position: 33%; /* Fija lo que hay en el medio*/
+    font-family: "texto";
+    font-size: 7rem;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#intro {
+    color: rgb(255, 255, 255);
+    font-family: "titulos";
+    font-size: 40px;
+    margin: 0; padding: 0;
+    padding-top: 50px
+}
+
+#intro2 {
+    color: rgb(255, 255, 255);
+    font-family: "texto";
+    font-size: 20px;
+    margin: 0; padding: 0;
+}
+
+.titulo-seccion {
+    color: rgb(255, 255, 255);
+}
+
+#Asesinos {
+    color: rgb(255, 255, 255);
+    font-family: "titulos";
+    font-size: 40px;
+    margin: 0; padding: 0;
+    padding-top: 50px
+}
+
+#Asesinos2 {
+    color: rgb(255, 255, 255);
+    font-family: "texto";
+    font-size: px;
+    margin: 0; padding: 0;
+}
+#Resumen {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: "titulos";
+}
+#Contacto {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+#grid4 {display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.col4{  
+    padding: 8%;
+    margin-right: 0px;
+    font-size: 20px;
+}
+
+#card {
+    background-color: #000000;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding:5%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.card img:hover {
+    border-radius:50%;
+    filter:saturate(2);
+    transition: 1s; /* cambio suave */
+}
+
+
+#pie {
+    padding: 2px 16px;
+    
+    margin-top:-8px;
+  }
+
+  .boton {text-decoration:none; /* quitar el subrayado */  
+    color:white;        /* texto en blanco */
+    font-weight:bold;     /* texto en negrita */
+    background-color: rgb(0, 0, 0); /* color botón */
+    padding:5px 10px;   /* espacio libre en botón */
+    border-radius:5px;
+}
+
+.boton:hover {background-color: #000000;
+          color:rgb(255, 0, 0);
+}
+
+.iframe {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+
+#texto-Resumen{
+    font-family: "texto" ;
+    font-size: 20px;
+}
+  /* Luego diseña el iframe para que encaje en el contenedor div con altura y ancho completos */
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .footer {background-color: rgb(31, 17, 85);}
+
+  .grid3 {display:grid;
+          grid-template-columns: 25% 25% 50%;
+          align-items:center;
+          font-size: 35px;
+          }
+  .col3 {padding: 6%;
+         }
+  .col3 img {width:50%; /* para que no se salga de su cuadro */
+             display:block; /* la convierto en bloque */
+             margin:auto; /* la centra dentro de la col. */
+            }
+  #ancha {padding:3%;}
+  
+  /* Estilo de los iconos */
+  .fa {box-sizing:content-box; /* el padding, lo añade al width */
+       padding: 15px;
+       font-size: 25px;
+       width: 30px; height:30px; border-radius:50%;
+       text-align: center;
+       text-decoration: none;
+     }
+     
+     /* Añade un hover si quieres */
+     .fa:hover {
+       opacity: 0.7;
+     }
+     .fa-youtube {
+       background: #bb0000;
+       color: white;
+     }
+     
+     .fa-instagram {
+       background: #125688;
+       color: white;
+     }
+     
+     
+     .enlace {text-decoration:none;
+              color:darkred;
+              font-weight:bold;}
+  
+     .enlace:hover {color:rgb(220, 30, 30)}
+  
+
+
+          
+
+nav {position: sticky;
+    top: 0;
+    z-index: 99; /*ESTO ES PARA QUE NO HAYA NADA SUPERPUESTO*/
+}
+    /* Añade un fondo nefro en la barra */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Estilo de los links dentro de la barra */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* CAMBIA EL COLOR DEL HOVER*/
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Agrega una clase activa para resaltar la página actual */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Oculta el enlace que debería abrir y cerrar la navegación superior en pantallas pequeñas */
+  .topnav .icon {
+    display: none;
+  }
+  /*LAS MEDIAS QUERIES DE MI BARRA DE NAVEGACION ESTARAN AQUI*/
+ @media screen and (max-width: 800px) {
+   .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+    }
+    @media screen and (max-width: 800px) {
+      #grid4 {display:grid;
+          grid-template-columns: 50% 50%;
+      }
+      #heroe {
+        font-size: 50px;
+      }
+      .col3 {
+        font-size: 20px;
+      }
+      #ancha{
+        text-align: right;
+      }
+      }
